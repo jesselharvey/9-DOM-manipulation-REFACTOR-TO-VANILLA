@@ -2,24 +2,26 @@ body {
   text-align: center;
   font-family: sans-serif, helvetica;
 }
-p {
-  /* box-shadow: 3px 3px 5px rgba(0, 0, 0) inset; */
-  padding: 3% 5%;
-}
-h1 {
-  background: rgba(241, 122, 142, 0.808);
-}
-h1:hover {
-  cursor: pointer;
-}
 .container {
   /* background: rgba(241, 122, 142, 0.808); */
   width: 40%;
   margin: 0 auto;
 }
-.hide {
-  display: none;
+.section {
 }
-.show {
-  display: initial;
+.head {
+  background: rgba(241, 122, 142, 0.808);
+}
+.head:hover {
+  /* box-shadow: 3px 3px 5px rgba(0, 0, 0) inset; */
+  cursor: pointer;
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+}
+.active {
+  max-height: 300px;
+  overflow: hidden;
 }
